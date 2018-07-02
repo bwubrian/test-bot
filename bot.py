@@ -4,6 +4,7 @@ from discord.ext import commands
 import asyncio
 import time
 import math
+import os
 
 bot = commands.Bot(command_prefix = ["n!", "n1", "b2", "n2", "N!", "N1", "B2", "N2"] , description = "A super trivia bot that tries not to suck too much.")
 @bot.command()
